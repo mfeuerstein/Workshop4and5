@@ -54,6 +54,12 @@ var initialData = {
       // List of comments on the post
       "comments": [
         {
+          "index": 0,
+          "feedID": 1,
+          // Like counter for comments
+          "likeCounter": [
+            1
+          ],
           // The author of the comment.
           "author": 2,
           // The contents of the comment.
@@ -63,6 +69,12 @@ var initialData = {
           "postDate": 1453690800000
         },
         {
+          "index": 1,
+          "feedID": 1,
+          // Like counter for comments
+          "likeCounter": [
+            1
+          ],
           "author": 3,
           "contents": "sending hugs your way",
           "postDate": 1453690800000
